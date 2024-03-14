@@ -1,7 +1,6 @@
 <?php
-
+//array of fields in the database
 $fieldsArray = [
-	'id' => 'Пореден номер',
 	'ekatte' => 'Екатте код',
 	't_v_m' => 'Вид',
 	'name' => 'Име',

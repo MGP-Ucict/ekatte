@@ -1,5 +1,5 @@
 <?php
-
+//remove parameter page from guery string to avoid multiple page parameters
 function removeVar($path, $key) {
 	$paramArray = explode('&', $path);
 	foreach ($paramArray as $key => $val) {

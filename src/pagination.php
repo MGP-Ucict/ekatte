@@ -1,4 +1,5 @@
 <?php
+//compute pages count and current page
 require_once('./database/scripts/connection.php');
 require_once('./src/fields.php');	
 require_once('./src/functions.php');
